@@ -14,7 +14,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class CSVWrite {
-  
+
     public void WritingToCSV () throws IOException {
         //Instantiating the CSVWriter class
         CSVWriter writer = new CSVWriter(new FileWriter("/home/jayaprakash/Desktop/workspace/sampleTemp.csv"));
